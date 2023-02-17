@@ -1,7 +1,8 @@
-const btn = document.getElementById('#btn');
-const nav = document.getElementById('#nav');
+const bttn = document.querySelector('#btn');
+const nav = document.querySelector('#nav');
 
-btn.addEventListener('click', e => {
-    btn.preventDefault();
-    nav.classList.toggle('active')
+bttn.addEventListener('click', () => {
+    // btn.preventDefault();
+    nav.classList.toggle('active');
+    bttn.classList.toggle('active');
 });

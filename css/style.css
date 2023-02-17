@@ -15,8 +15,14 @@ button {
     background-color: blueviolet;
     padding: 1rem;
     position: fixed;
-    top: 10px;
-    right: 10px;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+/* js */
+button.active {
+    transform: translateX(-115px);
 }
 nav {
     background-color: blueviolet;
@@ -25,11 +31,11 @@ nav {
     right: 0;
     height: 100vh;
     padding: 2rem;
-    transform: translate(100%);
+    transform: translateX(100%);
 }
 /* js */
 nav.active {
-    transform: translate(0);
+    transform: translateX(0);
 }
 
 nav ul {
